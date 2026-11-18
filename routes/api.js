@@ -5,7 +5,7 @@ const router = express.Router()
 const randomWYRQuestion = require('../model/wyr_questions')
 
 router.get('/', function(req, res, next){
-    res.send('Pleaseholder for home page')
+    
 })
 
 router.get('/wyr', function(req, res, next) { 
